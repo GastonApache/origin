@@ -1,0 +1,10 @@
+{
+  "menuName": "Dynamic Menu",
+  "items": [
+    {
+      "type": "button",
+      "label": "Example Button",
+      "desc": "This is a sample button"
+    }
+  ]
+}

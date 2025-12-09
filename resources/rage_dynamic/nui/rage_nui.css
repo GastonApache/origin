@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 'BankGothic';
+	src: url('./fonts/bankgothic.ttf') format('truetype');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'PDown';
+	src: url('./fonts/pdown.ttf') format('truetype');
+	font-weight: normal;
+}
+
+body {
+	margin : 0;
+	user-select: none;
+	font-family: 'BankGothic', 'Arial', 'Helvetica', sans-serif;
+	overflow: hidden;
+}
+
+.menu-container {
+	position: absolute;
+	top: 5%; /*position typique interaction menu*/
+	left: 2%;
+	width: 300px;
+	background-color: rgba(82, 38, 121, 0.75);
+	color: white;
+	border-radius: 4px;
+
+}
+
+.header {
+	background: linear-gradient(180deg,#0A84FF 0%, #0056b3 100%,);/*bleu style police ou custom*/
+	padding: 20px 15px;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 4px 4px 0 0;
+
+}
+
+.header h1 {
+	margin: 0;
+	font-size: 28px;
+	font-weight: 900;
+	letter-spacing: 1px;
+
+}
+
+.items-list {
+	padding: 400px; /*scrool si trop long*/
+	overflow: hidden;
+}
+
+.item {
+	padding: 10px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+
+}
+
+/* items selectionner */
+
+.item-active {
+	background-color: rgba(255, 255, 255, 0.95);
+	color: black;
+}
+
+.right-label {font-weight: bold;}
+
+.description {
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 10px 15px;
+	min-height: 30px;
+	border-top: 2px solid rgba(255, 255, 255, 0.1);
+	font-size : 12px;
+	color:#bbb;
+	border-radius: 0 0 4px 4px;
+}

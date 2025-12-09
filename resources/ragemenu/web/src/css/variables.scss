@@ -1,0 +1,51 @@
+:root {
+  // /* Width and Height */
+  --menuWidth: var(--menuWidth, 37vh);
+  --headerHeight: var(--headerHeight, 12vh);
+  --itemHeight: var(--itemHeight, 5vh);
+
+  // /* Backgrounds */
+  --headerBgColor: var(--headerBgColor, linear-gradient(135deg, #667eea 0%, #764ba2 100%));
+  --navBgColor: var(--navBgColor, #ff5900);
+  --itemBgColor: var(--itemBgColor, rgba(0, 0, 0, 0.8));
+  --descBgColor: var(--descBgColor, rgba(0, 0, 0, 0.9));
+  --descBorderColor: var(--descBorderColor, #000000);
+  --backgroundGradient: var(--backgroundGradient, linear-gradient(135deg, rgba(0, 0, 0, 0.95) 0%, rgba(20, 20, 20, 0.95) 100%));
+  
+  // /* Colors */
+  --headerTextColor: var(--headerTextColor, #FFFFFF);
+  --navTextColor: var(--navTextColor, #FFFFFF);
+  --itemTextColor: var(--itemTextColor, #FFFFFF);
+  --descTextColor: var(--descTextColor, #CCCCCC);
+  --checkIconColor: var(--checkIconColor, #ff5900);
+  
+  // /* Sliders */
+  --sliderBgColor: var(--sliderBgColor, rgba(255, 255, 255, 0.2));
+  --sliderProgressColor: var(--sliderProgressColor, #ff5900);
+  --sliderHeight: var(--sliderHeight, 0.8vh);
+  
+  // /* Side Panel */
+  --sidepanelBgColor: var(--sidepanelBgColor, rgba(0, 0, 0, 0.9));
+  --sidepanelTextColor: var(--sidepanelTextColor, #FFFFFF);
+  --sidepanelAltColor: var(--sidepanelAltColor, rgba(0, 0, 0, 0.8));
+
+  // /* Font */
+  --headerFont: var(--headerFont, 'Bebas Neue', sans-serif);
+  --menuFont: var(--menuFont, 'Roboto', sans-serif);
+  --fontWeight: var(--fontWeight, 400);
+  --fontSize: var(--fontSize, 1.9vh);
+  --headerFontSize: var(--headerFontSize, 5vh);
+  --checkIconSize: var(--checkIconSize, 2.5vh);
+  --letterSpacing: 0.02vh;
+
+  // /* Effects */
+  --checkGlow: var(--checkGlow, drop-shadow(0 0 0.5vh rgba(255, 89, 0, 0.8)));
+  --checkAnimation: var(--checkAnimation, checkPop 0.3s ease-in-out);
+  --animationSpeed: var(--animationSpeed, 0.3s);
+  --borderRadius: var(--borderRadius, 0px);
+  --itemHoverOpacity: var(--itemHoverOpacity, 0.9);
+
+  /* Icons */
+  --scrollingIconSize: 4.7vh;
+  --infoIconSize: 5vh;
+}
